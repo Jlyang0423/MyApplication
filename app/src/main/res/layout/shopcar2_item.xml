@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <CheckBox
+
+        android:layout_gravity="center"
+        android:id="@+id/ck_gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_jianjie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="克拉裸钻定制DIA双证书18K金钻石戒指女款克拉钻戒"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_jianjie2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="啦啦啦啦啦啦啦啦"
+            android:textSize="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_shop_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥4500000.00"
+                android:textColor="#ff0000" />
+            <test.bwie.myapplication.view.AddSubView
+                android:id="@+id/nnn"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tv_shop_price"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp">
+
+            </test.bwie.myapplication.view.AddSubView>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
